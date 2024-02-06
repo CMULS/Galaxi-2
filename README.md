@@ -57,7 +57,7 @@
         }
         a {
         font-color: white;
-        }
+    }
     </style>
 </head>
 <body>
