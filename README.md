@@ -31,7 +31,7 @@
             height: 180px;
             border-radius: 15px;
             overflow: hidden;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.2);
             backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
             padding: 20px;
             text-align: center;
