@@ -1,40 +1,81 @@
-# Galaxi-2
-<html>
-<main id="main">
-<h1>Galaxy Webers Survey form</h1>
-<h3>Thank you for taking the time to fill in this survey</h3>
-<h4>Name</h4>
-<form action="" id="survey-form"> 
-    <label id="name-label" for="name"> Enter your name:</label>
-    <input id="name" name="Please fill in this field" required type="text" placeholder="Enter your name">
-</form>
-<h4>Age(optional)</h4>
-<form action="" id="survey-form">
-    <label id="number" for="age">Age</label>
-    <input id="age" name="Please fill in this fiel" required type="number" placeholder="Age">
-</form>
-<h4>Occupation</h4>
-<form action="" id="survey-form"> 
-    <select id="dropdown"> 
-        <option value="student">Student</option>
-        <option value="full-time worker">Full-time worker</option>
-    </select>
-    
-</form>
-    <h4>Would you recommend Galaxy webers to a friend?</h4>
-    <h4><label for="definitely"><input id="definitely" value="definitely" type="radio"/>Definitely</label></h4>
-    <h4><label for="maybe"><input id="maybe" value="maybe" type="radio"/>Maybe</label></h4>
-    <h4><label for="not sure"><input id="not sure" value="not sure" type="radio"/>Not sure</label></h4>
-    <h4>Any comments or suggestions?</h4>
-    <form action="">
-        <textarea <input type="text" placeholder="Enter your comment here..."></textarea>
-        <h5><button id="submit">Submit</button></form></h5>
-</main>
-    
-</html>
-<style>
-    #main {
-        background-color: blueviolet;
-    }
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frosted Glass Credit Card</title>
+    <!-- Import the Inconsolata font from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap">
 
-</style>
+    <style>
+        /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url("https://i.pinimg.com/originals/6b/d6/0e/6bd60edad5fe224b9e3a09951f6bf895.jpg") no-repeat center;
+            background-size: cover;
+            display: grid;
+            font-family: 'Inconsolata', monospace;
+            min-height: 100vh;
+            place-items: center;
+            
+        }
+
+        /* Create the frosted blurry glass effect */
+        .card {
+            position: relative;
+            width: 300px;
+            height: 180px;
+            border-radius: 15px;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.0);
+            backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        /* Style for the card text */
+        .card_text {
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: bold;
+        }
+
+        /* Style for the small text */
+        .card_text small {
+            font-size: 12px;
+        }
+
+        /* Style for the Visa logo */
+        svg {
+            width: 40px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card_text">
+            Chibesa D Mulenga
+            <br>
+            VISA
+            <br>
+            7426 3523 6143 1218
+            <br>
+            <small>11/26</small>
+        </div>
+        <!-- Insert Visa logo here -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 24">
+            <!-- Replace the following path data with the actual Visa logo path data -->
+            <path d="M4 0l4 24h8l-4-24h-8zm20 0l4 24h8l-4-24h-8z"/>
+        </svg>
+    </div>
+</body>
+<footer> 
+    <a href="https://i.pinimg.com/originals/6b/d6/0e/6bd60edad5fe224b9e3a09951f6bf895.jpg">Source</a>
+</footer>
+</html>
