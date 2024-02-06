@@ -55,8 +55,8 @@
             width: 40px;
             margin-top: 10px;
         }
-     #footer {
-        font-color: white;
+     a {
+        color: white;
     }
     </style>
 </head>
@@ -79,6 +79,6 @@
     </div>
 </body>
 <footer> 
-    <a id="footer" href="https://i.pinimg.com/originals/6b/d6/0e/6bd60edad5fe224b9e3a09951f6bf895.jpg">Background Source</a>
+    <a href="https://i.pinimg.com/originals/6b/d6/0e/6bd60edad5fe224b9e3a09951f6bf895.jpg">Background Source</a>
 </footer>
 </html>
