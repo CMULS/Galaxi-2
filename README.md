@@ -87,7 +87,7 @@
 </body>
 <footer> 
     <h3>Description</h3>
-    <p>The glass-like card depicted above depicts a concept in User-Interface design (UI) known as glass morphism. It's basically the manipulation of an objects transparency or translucency to give it that see- through effect. A space blackhole background is what you see in the backround. </p>
+    <p>The glass-like card depicted above depicts a concept in <strong>User-Interface design (UI)</strong> known as <strong>glass morphism</strong>. It's basically the manipulation of an objects transparency or translucency to give it that <strong>see- through effect</strong>. A space blackhole background is what you see in the backround. </p>
     <a href="https://i.pinimg.com/originals/6b/d6/0e/6bd60edad5fe224b9e3a09951f6bf895.jpg">Background Source</a>
 </footer>
 </html>
